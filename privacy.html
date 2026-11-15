@@ -34,7 +34,7 @@
 <p>Your progress (level, stars, coins, hints, daily puzzles, chosen theme and settings) is saved only on your device. Uninstalling the game or clearing its data deletes it.</p>
 
 <h2>Leaderboard</h2>
-<p>If the "Show me on the leaderboard" setting is on, the game sends the following to our leaderboard database (Google Cloud Firestore, operated by Google):</p>
+<p>The leaderboard is optional. The game asks before you join; only if you agree (or switch on "Show me on the leaderboard" in Settings) does it send the following to our leaderboard database (Google Cloud Firestore, operated by Google):</p>
 <table>
   <tr><th>Data</th><th>Why</th></tr>
   <tr><td>A random anonymous player ID created by the game</td><td>So that only your own device can update your entry</td></tr>
@@ -43,6 +43,12 @@
   <tr><td>Your star total and level number</td><td>Your score</td></tr>
 </table>
 <p>These entries are visible to all players. They are not linked to your name or to any other account. You can turn the setting off at any time in Settings; doing so deletes your entry from the leaderboard. You can also ask us to delete it by e-mail.</p>
+
+<h2>Usage measurement</h2>
+<p>To understand how the game is played and to fix what does not work, the game uses Google Analytics for Firebase. It records events such as "level started", "level finished" (with level number, stars and mistakes), "hint used" and "rewarded video watched", together with technical information such as device model, Android version, language, country derived from the IP address, an app-instance ID and the advertising ID. We see this only as statistics; we do not use it to identify you. Google's description of this service: <a href="https://support.google.com/firebase/answer/6318039">support.google.com/firebase/answer/6318039</a>.</p>
+
+<h2>Reminders</h2>
+<p>If you say yes when the game offers it, the game shows at most one reminder notification a day about the daily puzzle. Reminders are scheduled on your phone itself; nothing is sent to a server for them. You can switch them off in Settings at any time.</p>
 
 <h2>Advertising</h2>
 <p>The game is free and shows ads through Google AdMob. To deliver and measure ads, Google's advertising SDK may collect and process, for example: the device's advertising ID, IP address (from which an approximate location is derived), device and app information, ad interactions and diagnostic data. Google may use this data to show personalised ads where the law and your choices allow it.</p>
@@ -57,7 +63,7 @@
 <p>The game is not directed at children under 13 and we do not knowingly collect personal data from them.</p>
 
 <h2>Data sharing and retention</h2>
-<p>We do not sell personal data. Data is processed only by the providers named above (Google AdMob and Google Cloud Firestore). Leaderboard entries are kept until you turn the leaderboard setting off or ask us to delete them; inactive entries may be removed periodically.</p>
+<p>We do not sell personal data. Data is processed only by the providers named above (Google AdMob, Google Analytics for Firebase and Google Cloud Firestore). Leaderboard entries are kept until you turn the leaderboard setting off or ask us to delete them; inactive entries may be removed periodically.</p>
 
 <h2>Your rights and contact</h2>
 <p>You can ask what data we hold about you, or ask us to correct or delete it, by writing to <a href="mailto:thewallapp0@gmail.com">thewallapp0@gmail.com</a>. If you write about a leaderboard entry, please include your nickname and country.</p>
@@ -76,7 +82,7 @@
 <p>İlerlemeniz (seviye, yıldız, para, ipucu, günlük bulmacalar, seçtiğiniz tema ve ayarlar) yalnızca cihazınızda saklanır. Oyunu kaldırmak ya da verilerini temizlemek bunları siler.</p>
 
 <h2>Liderlik tablosu</h2>
-<p>"Beni liderlik tablosunda göster" ayarı açıksa oyun, liderlik tablosu veritabanımıza (Google tarafından işletilen Google Cloud Firestore) şunları gönderir:</p>
+<p>Liderlik tablosu isteğe bağlıdır. Oyun katılmadan önce size sorar; yalnızca kabul ederseniz (ya da Ayarlar'da "Beni liderlik tablosunda göster" ayarını açarsanız) liderlik tablosu veritabanımıza (Google tarafından işletilen Google Cloud Firestore) şunları gönderir:</p>
 <table>
   <tr><th>Veri</th><th>Neden</th></tr>
   <tr><td>Oyunun oluşturduğu rastgele, anonim bir oyuncu kimliği</td><td>Kaydınızı yalnızca kendi cihazınızın güncelleyebilmesi için</td></tr>
@@ -85,6 +91,12 @@
   <tr><td>Yıldız toplamınız ve seviye numaranız</td><td>Puanınız</td></tr>
 </table>
 <p>Bu kayıtları tüm oyuncular görebilir. Adınızla ya da başka bir hesapla ilişkilendirilmez. Ayarı dilediğiniz zaman Ayarlar'dan kapatabilirsiniz; kapattığınızda kaydınız tablodan silinir. Silinmesini e-postayla da isteyebilirsiniz.</p>
+
+<h2>Kullanım ölçümü</h2>
+<p>Oyunun nasıl oynandığını anlamak ve çalışmayan yerleri düzeltmek için oyun, Google Analytics for Firebase kullanır. "Seviye başladı", "seviye bitti" (seviye numarası, yıldız ve hata sayısıyla), "ipucu kullanıldı", "ödüllü video izlendi" gibi olayları; cihaz modeli, Android sürümü, dil, IP adresinden çıkarılan ülke, uygulama örneği kimliği ve reklam kimliği gibi teknik bilgilerle birlikte kaydeder. Bunları yalnızca istatistik olarak görürüz; sizi tanımlamak için kullanmayız. Google'ın bu hizmete ilişkin açıklaması: <a href="https://support.google.com/firebase/answer/6318039">support.google.com/firebase/answer/6318039</a>.</p>
+
+<h2>Hatırlatmalar</h2>
+<p>Oyun önerdiğinde kabul ederseniz, günün bulmacası için günde en çok bir hatırlatma bildirimi gösterilir. Hatırlatmalar telefonunuzun kendisinde planlanır; bunun için hiçbir sunucuya veri gönderilmez. İstediğiniz zaman Ayarlar'dan kapatabilirsiniz.</p>
 
 <h2>Reklamlar</h2>
 <p>Oyun ücretsizdir ve Google AdMob üzerinden reklam gösterir. Reklamları sunmak ve ölçmek için Google'ın reklam yazılımı şunları toplayıp işleyebilir: cihazın reklam kimliği, IP adresi (yaklaşık konum bundan çıkarılır), cihaz ve uygulama bilgileri, reklam etkileşimleri ve tanılama verileri. Google bu verileri, yasaların ve tercihlerinizin izin verdiği yerlerde kişiselleştirilmiş reklam göstermek için kullanabilir.</p>
@@ -99,7 +111,7 @@
 <p>Oyun 13 yaşından küçük çocuklara yönelik değildir ve onlardan bilerek kişisel veri toplamayız.</p>
 
 <h2>Veri paylaşımı ve saklama</h2>
-<p>Kişisel veri satmayız. Veriler yalnızca yukarıda adı geçen sağlayıcılar (Google AdMob ve Google Cloud Firestore) tarafından işlenir. Liderlik tablosu kayıtları, ayarı kapatana ya da silinmesini isteyene kadar saklanır; uzun süre kullanılmayan kayıtlar belirli aralıklarla silinebilir.</p>
+<p>Kişisel veri satmayız. Veriler yalnızca yukarıda adı geçen sağlayıcılar (Google AdMob, Google Analytics for Firebase ve Google Cloud Firestore) tarafından işlenir. Liderlik tablosu kayıtları, ayarı kapatana ya da silinmesini isteyene kadar saklanır; uzun süre kullanılmayan kayıtlar belirli aralıklarla silinebilir.</p>
 
 <h2>Haklarınız ve iletişim</h2>
 <p>Hakkınızda hangi verileri tuttuğumuzu sormak, düzeltilmesini ya da silinmesini istemek için <a href="mailto:thewallapp0@gmail.com">thewallapp0@gmail.com</a> adresine yazabilirsiniz. Liderlik tablosu kaydıyla ilgili yazıyorsanız lütfen takma adınızı ve ülkenizi belirtin.</p>
